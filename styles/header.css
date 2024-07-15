@@ -16,10 +16,10 @@ header .container {
 
 #profile > div {
     max-width: 384px;
-
 }
 
 #profile img {
+    object-fit: cover;
     border-radius: 50%;
 }
 
