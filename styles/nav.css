@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    /* espaço entre as caixas */
+    justify-content: space-between;
+    align-items: center;
+
+    /* espaços extras que existe */
+    line-height: 0;
+
+    /* padding-block = espaço de cima e de baixo */
+    padding-block: 20px;
+}
+
+nav ul {
+    /* list-style: retira a formatação das ul (os pontinhos) */
+    list-style: none;
+    /* display tipo flex para os elementos da navegação se posicionar um ao lado do outro */
+    display: flex;
+    align-items: center;
+
+    /* gap - espaço entre os elementos */
+    gap: 24px;
+
+    /* espaço emcima e embaixo */
+    padding-block: 8px;
+
+}
+
+/* para diminuir o tamanho da imagem de perfil */
+/* li:last-child - para pegar a ultima imagem da lista */
+nav ul li:last-child img {
+    width: 40px;
+    height: 40px;
+
+    /* para uma proporção correta da imagem, quando não estiver baixado a imagem correta */
+    /* cover - cobre todo o espeCo definido ( ex. 40px / 40px */
+    /* object-fit: cover; */
+
+    /* se a imagem não estiver redonda */
+    /* border-radius: 50%; */
+
+}

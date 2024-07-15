@@ -26,3 +26,27 @@ body {
     color: var(--text-color-secondary);
     background-color: var(--background-color);
 }
+
+a {
+    /* text-decoration: retira ou coloca (underline) no texto */
+    text-decoration: none;
+    /* inherit - serve para herdar do pai (nesse caso herda do body = color: var(--text-color-secondary);) */
+    color: inherit;
+}
+
+a:hover {
+    /* hover - serve para quando passar o mouse na âncora (a - link não clicável), modificar a cor do texto */
+    color: var(--brand-color);
+    /* text-decoration = coloca underline quando passar o mouse */
+    text-decoration: underline;
+}
+
+.container {
+    padding: 32px;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.bg-surface-color {
+    background-color: var(--surface-color);
+}
