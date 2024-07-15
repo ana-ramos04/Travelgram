@@ -34,9 +34,9 @@ nav ul li:last-child img {
 
     /* para uma proporção correta da imagem, quando não estiver baixado a imagem correta */
     /* cover - cobre todo o espeCo definido ( ex. 40px / 40px */
-    /* object-fit: cover; */
+    object-fit: cover;
 
     /* se a imagem não estiver redonda */
-    /* border-radius: 50%; */
+    border-radius: 50%;
 
 }
